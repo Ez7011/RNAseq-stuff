@@ -14,7 +14,7 @@ MULTIQC_DIR="fastq_data/multiqc"
 
 mkdir -p $RAW_DIR $TRIMMED_DIR $FASTQC_DIR $FASTQC_TRIMMED_DIR $MULTIQC_DIR
 
-
+# make sure your seq file is in the same directory
 FILE_NAME=$"R175H_72_Epsilon_Pan_1_1_S3_L001_R1_001.fastq.gz"
 
 mv $FILE_NAME $RAW_DIR
